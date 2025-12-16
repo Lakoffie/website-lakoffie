@@ -284,3 +284,125 @@ body {
 body.popup-active {
   overflow: hidden;
 }
+
+/* =============================
+   MITRA – PREMIUM LOOK
+   ============================= */
+.mitra-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.mitra-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mitra-label {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+  letter-spacing: 0.4px;
+}
+
+/* Hover premium */
+.mitra-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+/* Icon platform */
+.mitra-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+/* =============================
+   ARTIKEL SLIDER
+   ============================= */
+.artikel-slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 4px 20px;
+}
+
+.artikel-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.artikel-card {
+  min-width: 260px;
+  max-width: 260px;
+  flex-shrink: 0;
+}
+
+/* Navigasi slider */
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.slider-btn {
+  background: #2b1d14;
+  color: #fff;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.slider-btn:hover {
+  opacity: 0.85;
+}
+
+/* =============================
+   SLIDER ARTIKEL (LANDING)
+   ============================= */
+.artikel-slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 4px 20px;
+}
+
+.artikel-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.artikel-card {
+  min-width: 260px;
+  max-width: 260px;
+  flex-shrink: 0;
+}
+
+/* =============================
+   SEARCH ARTIKEL
+   ============================= */
+.artikel-search {
+  max-width: 420px;
+  margin: 0 auto 14px;
+}
+
+.artikel-search input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+.hidden-tags {
+  display: none;
+}
+
